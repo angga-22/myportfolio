@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) {
+    #nav{
+        position: relative;
+        top: 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #nav{
+        position: relative;
+        top: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #nav{
+        position: relative;
+        top: 15px;
+    }
+    
+}
+
+
+
+#brand{
+    float: right;
+    color: #fff;
+    top: 12px;
+    position: relative;
+    font-size: 1.4em;
+}
+
+img{
+    width: 70px;
+    float: right;
+    
+}

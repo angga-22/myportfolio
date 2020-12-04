@@ -1,0 +1,26 @@
+h1{
+    line-height: 90% !important;
+    font-family: 'Noto Serif', serif;
+    text-shadow: rgba(0, 0, 0, 0.7) -18px 5px 10px;
+    letter-spacing: -2px;
+    font-size: calc(37px + (170 - 70) * ((100vw - 300px) / (1200 - 300))) !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1{
+        text-shadow: rgba(0, 0, 0, 0.7) -5px 5px 5px;
+    }
+}
+
+
+.zigzag{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 130px !important;
+    opacity: .5;
+    margin-top: 13%;
+    margin-bottom: 17%;
+}
+

@@ -1,0 +1,34 @@
+$basic-color: #1d1d1d;
+$primary-color: #c5932c;
+
+.jumbo-card{
+    width: calc(180px + (335 - 190) * ((300vw - 300px) / (1200 - 300))) !important;
+}
+
+.wrapper-jumbo-card{
+    border: 1px solid #c5932c;
+    padding: 2%;
+    border-radius: 15px;
+   background-color: #1d1d1d !important;
+}
+
+.title-jumbo-card{
+    color: #fff;
+    font-family: 'Noto Serif', serif;
+    font-size: calc(30px + (120 - 90) * ((100vw - 300px) / (1200 - 300))) !important;
+}
+
+.line{
+    border: 1px solid $primary-color;
+    width: 180px;
+    margin-left: 70px !important;
+    margin-right: 50px !important;
+}
+
+h5{
+    margin-right: 35px !important;
+    color: #fff;
+}
+
+
+
