@@ -93,10 +93,12 @@ const Navbars = () => {
           )}
         </Col>
         <Col xs="9" sm="6" md="6" lg="8" xl="8">
-          <img src={angga} alt="angga" />
-          {isMobile ? null : (
-            <NavbarBrand id="brand">Angga Saputra</NavbarBrand>
-          )}
+          <Link to="/">
+            <img src={angga} alt="angga" />
+            {isMobile ? null : (
+              <NavbarBrand id="brand">Angga Saputra</NavbarBrand>
+            )}
+          </Link>
         </Col>
       </Row>
     </Container>

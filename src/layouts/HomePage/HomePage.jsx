@@ -12,10 +12,7 @@ import Cards from "../../components/Card/Card";
 const HomePage = () => {
   return (
     <Container fluid style={{ backgroundColor: "#1d1d1d" }}>
-      <Row>
-        <Navbars />
-      </Row>
-      <Row style={{ marginTop: "10%", color: "#fff" }}>
+      <Row style={{ color: "#fff" }}>
         <Letter />
       </Row>
       <Row>
